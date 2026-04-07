@@ -22,4 +22,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 1**: [Linux User Setup with Non-Interactive Shell] - *Completed: April 1, 2026*
 - [x] **Day 2**: [Temporary User Setup with Expiry] - *Completed: April 2, 2026*
 - [x] **Day 3**: [Secure Root SSH Access] - *Completed: April 5, 2026*
-
+- [x] **Day 4**: [Script Execution Permissions] - *Completed: April 7, 2026*
