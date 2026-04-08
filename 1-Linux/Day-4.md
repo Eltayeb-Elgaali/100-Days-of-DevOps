@@ -17,7 +17,10 @@ Your task is to grant executable permissions to the /tmp/xfusioncorp.sh script o
 
 ```ls -la /tmp```
 
-
+- 755: Standard executable (rwxr-xr-x)
+- 644: Standard file (rw-r--r--)
+- 600: Private file (rw-------)
+- 777: Full access (dangerous - avoid)
 
 
 
