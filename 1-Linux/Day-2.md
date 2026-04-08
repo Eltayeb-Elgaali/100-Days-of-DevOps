@@ -19,9 +19,13 @@ Create a user named yousuf on App Server 1 in Stratos Datacenter. Set the expiry
 
 ```chage -l yousuf```
 
-```passwd -S eelgaali```
+```passwd -S yousuf```
 
+```passwd -l yousuf```
 
+```passwd -u yousuf```
+
+```passwd -d yousuf```
 
 
 ---
