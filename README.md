@@ -25,3 +25,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 4**: [Script Execution Permissions] - *Completed: April 7, 2026*
 - [x] **Day 5**: [SElinux Installation and Configuration] - *Completed: April 10, 2026*
 - [x] **Day 6**: [Create a Cron Job] - *Completed: April 11, 2026*
+- [x] **Day 7**: [Linux SSH Authentication] - *Completed: April 12, 2026 
