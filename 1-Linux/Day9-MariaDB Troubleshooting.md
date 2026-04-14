@@ -11,7 +11,21 @@ Look into the issue and fix the same.
 
 ## 🛠️Solution
 
-```ssh user@server-name```
+```ssh peter@stdb01```
+
+```sudo systemctl status mariadb```
+
+```sudo systemctl restart mariadb```
+
+```journalctl -xe | grep mariadb ```
+
+```ls -ld /var/lib/mysql```
+
+```sudo chown mysql:mysql mysql```
+
+```sudo systemctl restart mariadb```
+
+```sudo systemctl status mariadb```
 
 
 
