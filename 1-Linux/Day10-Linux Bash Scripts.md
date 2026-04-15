@@ -39,3 +39,46 @@ The zip package must be installed on given App Server before executing the scrip
 
 
 
+sudo su -
+cd /scripts
+ls -la
+cd ../backup
+ls -la
+cd /var/www/html/official
+ls -la
+cat index.html
+cd /scripts
+
+
+vi official_backup.sh
+
+#!/bin/bash
+
+echo "zip archiving file..."
+zip -r /backup/xfusioncorp_official.zip /var/www/html/official
+echo "copying zip archive..."
+scp /backup/xfusioncorp_official.zip natasha@ststor01:/backup
+
+echo "successfuly copied zip archive into backup server"
+:x
+
+chmod +x official_backup.sh
+ls -la
+
+
+ssh-keygen -t rsa
+
+ssh-copy-id natasha@ststor01
+
+ssh natasha@ststor01
+ls -la /backup
+
+exit
+
+bash natasha@ststor01
+
+ssh cnatasha@ststor01
+
+
+ls -la /backup
+
