@@ -1,5 +1,5 @@
-Day 10: Linux Bash Scripts
-🐛Task
+# Day 10: Linux Bash Scripts
+## 🐛Task
 The production support team of xFusionCorp Industries is working on developing some bash scripts to automate different day to day tasks. One is to create a bash script for taking websites backup. They have a static website running on App Server 1 in Stratos Datacenter, and they need to create a bash script named official_backup.sh which should accomplish the following tasks. (Also remember to place the script under /scripts directory on App Server 1).
 
 
@@ -22,17 +22,20 @@ Note:
 The zip package must be installed on given App Server before executing the script. This package is essential for creating the zip archive of the website files. Install it manually outside the script.
 
 
-🛠️Solution
-ssh user@server-name
+## 🛠️Solution
+```ssh user@server-name```
 
-sudo useradd -m -s /usr/sbin/nologin user-name
+```sudo useradd -m -s /usr/sbin/nologin user-name```
 
-cat /etc/passwd
+```cat /etc/passwd```
 
-sudo su user-name
+```sudo su user-name```
 
-grep nologin /etc/passwd
+```grep nologin /etc/passwd```
 
-id user-name
+```id user-name```
 
-sudo userdel -r user-name
+```sudo userdel -r user-name```
+
+
+
