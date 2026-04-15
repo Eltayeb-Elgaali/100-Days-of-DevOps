@@ -45,7 +45,8 @@ echo "zip archiving file..."
 zip -r /backup/xfusioncorp_official.zip /var/www/html/official
 echo "copying zip archive..."
 scp /backup/xfusioncorp_official.zip natasha@ststor01:/backup
-echo "successfuly copied zip archive into backup server"```
+echo "successfuly copied zip archive into backup server"
+```
 
 
 ```chmod +x /scripts/official_backup.sh```
