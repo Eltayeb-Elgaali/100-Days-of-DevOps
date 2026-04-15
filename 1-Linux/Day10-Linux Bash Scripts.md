@@ -23,13 +23,13 @@ The zip package must be installed on given App Server before executing the scrip
 
 
 ## 🛠️Solution
-```ssh user@server-name```
+```sudo su -```
 
-```sudo useradd -m -s /usr/sbin/nologin user-name```
+```ls -la /scripts```
 
-```cat /etc/passwd```
+```ls -la /backup```
 
-```sudo su user-name```
+```cat /var/www/html/official/index.html```
 
 ```grep nologin /etc/passwd```
 
@@ -38,46 +38,31 @@ The zip package must be installed on given App Server before executing the scrip
 ```sudo userdel -r user-name```
 
 
+```vi /scripts/official_backup.sh```
 
-sudo su -
-cd /scripts
-ls -la
-cd ../backup
-ls -la
-cd /var/www/html/official
-ls -la
-cat index.html
-cd /scripts
-
-
-vi official_backup.sh
-
-#!/bin/bash
-
+```#!/bin/bash
 echo "zip archiving file..."
 zip -r /backup/xfusioncorp_official.zip /var/www/html/official
 echo "copying zip archive..."
 scp /backup/xfusioncorp_official.zip natasha@ststor01:/backup
-
-echo "successfuly copied zip archive into backup server"
-:x
-
-chmod +x official_backup.sh
-ls -la
+echo "successfuly copied zip archive into backup server"```
 
 
-ssh-keygen -t rsa
+```chmod +x /scripts/official_backup.sh```
+```ls -la```
 
-ssh-copy-id natasha@ststor01
 
-ssh natasha@ststor01
-ls -la /backup
+```ssh-keygen -t rsa```
+```ssh-copy-id natasha@ststor01```
+
+```ssh natasha@ststor01```
+```ls -la /backup```
 
 exit
 
-bash natasha@ststor01
+bash /scripts/official_backup.sh
 
-ssh cnatasha@ststor01
+ssh natasha@ststor01
 
 
 ls -la /backup
