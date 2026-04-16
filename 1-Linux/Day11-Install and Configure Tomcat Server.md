@@ -18,10 +18,29 @@ Deploy it on this tomcat server and make sure the webpage works directly on base
 
 ## 🛠️Solution
 
-```ssh user@server-name```
+```ls -l /tmp```
 
-```sudo useradd -m -s /usr/sbin/nologin user-name```
+```scp /tmp/ROOT.war steve@stapp02:/tmp```
 
+```ssh steve@stapp02```
+
+```ls -la /tmp```
+
+```sudo systemctl status tomcat```
+
+```sudo yum install tomcat -y```
+
+```sudo systemctl status tomcat```
+
+```vi /etc/tomcat/server.xml```
+
+```sudo systemctl restart tomcat```
+
+```curl http://stapp02:3001```
+
+```sudo cp /tmp/ROOT.war /usr/share/tomcat/webapps```
+
+```curl http://stapp02:3001```
 
 
 
