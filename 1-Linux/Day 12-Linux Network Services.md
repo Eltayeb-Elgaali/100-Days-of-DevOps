@@ -9,23 +9,23 @@ Create a user with non-interactive shell for your organization on a specific ser
 
 ```telnet stapp01 5003```
 
-```ssh steve@stapp01```
+```ssh tony@stapp01```
 
 ```sudo su -```
 
 ```sudo systemctl status httpd```
 
-```netstat -lntp /grep 5003```
+```netstat -lntp | grep 5003```
 
 ```kill 444```
 
-````netstat -lntp /grep 5003```
+```netstat -lntp /grep 5003```
 
 ```sudo systemctl restart httpd```
 
 ```iptables -L -n```
 
-```niptables -L -n -v```
+```iptables -L -n -v```
 
 ```sudo iptables -A INPUT -p tcp --dport 5003 -j ACCEPT```
 
