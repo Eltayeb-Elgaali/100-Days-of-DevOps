@@ -28,6 +28,8 @@ Deploy it on this tomcat server and make sure the webpage works directly on base
 
 ```sudo systemctl status tomcat```
 
+```cat /etc/*release*```
+
 ```sudo yum install tomcat -y```
 
 ```sudo systemctl status tomcat```
