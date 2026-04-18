@@ -40,9 +40,9 @@ We have one of our websites up and running on our Nautilus infrastructure in Str
 
 ```iptables-save > /etc/sysconfig/iptables``` 
 
-```curl stapp01:5000```
+```curl stapp01:6400```
 
-```telnet stapp03 5000```
+```telnet stapp03 6400```
 
 
 
