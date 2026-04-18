@@ -30,7 +30,7 @@ We have one of our websites up and running on our Nautilus infrastructure in Str
 
 ```iptables -L -n --line-numbers```
 
-```ss -tlun | grep 5000```
+```ss -tlun | grep 6400```
 
 ```iptables -I INPUT 5 -p tcp --dport 6400 -s stlb01 -j ACCEPT```
 
