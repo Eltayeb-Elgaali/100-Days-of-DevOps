@@ -22,36 +22,35 @@ We have one of our websites up and running on our Nautilus infrastructure in Str
 
 ```cat /etc/*release*```
 
-```yum install iptables-service -y```
+```yum install iptables iptables-services -y```
 
-```iptables -L -n```
+```systemctl enable --now iptables```
+
+```systemctl status iptables```
+
+```iptables -L -n --line-numbers```
 
 ```ss -tlun | grep 5000```
 
-```systemctl iptables enable```
+```iptables -I INPUT 5 -p tcp --dport 6400 -s stlb01 -j ACCEPT```
 
-```systemctl iptables start```
+```iptables -I INPUT 6 -p tcp --dport 6400 -j DROP```
 
-```iptables --help```
+```iptables -D INPUT 3```
 
-```iptables -A INPUT -p tcp --dport 5000 -s stlb01 -j ACCEPT```
-
-```iptables -A INPUT -p tcp --dport 5000 -s -j DROP```
+```iptables-save > /etc/sysconfig/iptables``` 
 
 ```curl stapp01:5000```
 
 ```telnet stapp03 5000```
 
-```yum install telnet -y```
 
-```ssh loki@stlb01```
 
-```iptables -L INPUT --line-numbers -n -v```
 
-```iptables -D INPUT 5```
 
-```service iptable save```
 
-```systemctl iptables restart```
+
+
+
 
 ---
