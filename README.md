@@ -28,3 +28,7 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 7**: [Linux SSH Authentication] - *Completed: April 12, 2026*
 - [x] **Day 8**: [Install Ansible] - *Completed: April 13, 2026*
 - [x] **Day 9**: [MariaDB Troubleshooting] - *Completed: April 14, 2026*
+- [x] **Day 10**: [Linux Bash Scripts] - *Completed: April 15, 2026*
+- [x] **Day 11**: [Install and Configure Tomcat Server] - *Completed: April 16, 2026*
+- [x] **Day 12**: [Linux Network Services] - *Completed: April 17, 2026*
+- [ ] **Day 13**: [IPtables Installation And Configuration] - *Completed: April 18, 2026*
