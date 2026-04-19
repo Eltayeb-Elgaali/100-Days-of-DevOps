@@ -32,3 +32,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 11**: [Install and Configure Tomcat Server] - *Completed: April 16, 2026*
 - [x] **Day 12**: [Linux Network Services] - *Completed: April 17, 2026*
 - [x] **Day 13**: [IPtables Installation And Configuration] - *Completed: April 18, 2026*
+- [x] **Day 14**: [Linux Process Troubleshooting] - *Completed: April 19, 2026*
