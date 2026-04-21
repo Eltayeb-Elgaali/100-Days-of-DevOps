@@ -28,9 +28,17 @@ d. Once done, you can access the website by running curl http://stlb01:80 in the
 
 ```yum install nginx -y```
 
+```systemctl start nginx```
+
 ```ssh tony@stapp01```
 
 ```sudo ss -luntp | grep httpd```
+
+```cat /etc/httpd/conf/httpd.conf```
+
+```curl localhost:8087```
+
+```vi /etc/nginx/nginx.conf```
 
 ``````
 
