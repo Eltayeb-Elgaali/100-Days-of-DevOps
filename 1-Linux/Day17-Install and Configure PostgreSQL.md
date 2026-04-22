@@ -20,19 +20,23 @@ Note: Please do not try to restart PostgreSQL server service.
 
 ## 🛠️Solution
 
-``````
+```ssh peter@stdb01```
 
-``````
+```systemctl status postgresql```
 
-``````
+```sudo -u postgres psql```
 
-``````
+```\du```
 
-``````
+```\l```
 
-``````
+```CREATE kodekloud_joy WITH PASSWORD '8FmzjvFU6S';```
 
-``````
+```CREATE DATABASE kodekloud_db7;```
+
+```GRANT ALL PRIVILEGES ON DATABASE kodekloud_db7 to kodekloud_joy;```
+
+```\q```
 
 
 
