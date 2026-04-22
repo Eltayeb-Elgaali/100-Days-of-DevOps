@@ -35,3 +35,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 14**: [Linux Process Troubleshooting] - *Completed: April 19, 2026*
 - [x] **Day 15**: [Setup SSL for Nginx] - *Completed: April 20, 2026*
 - [x] **Day 16**: [Install and Configure Nginx as an LBR] - *Completed: April 21, 2026*
+- [x] **Day 17**: [Install and Configure PostgreSQL] - *Completed: April 22, 2026*
