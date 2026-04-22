@@ -40,9 +40,17 @@ d. Once done, you can access the website by running curl http://stlb01:80 in the
 
 ```vi /etc/nginx/nginx.conf```
 
-``````
+```bash
+http {
+  upstream app_servers {
+        server <app-server01-ip>:<port>;
+        server <app-server02-ip>:<port>;
+        server <app-server03-ip>:<port>;
+    }
 
+    server {
+        listen 80;
 
-
-
----
+        location / {
+            proxy_pass http://app_servers;
+           
