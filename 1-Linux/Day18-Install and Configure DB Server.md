@@ -3,6 +3,11 @@
 
 ## 🐛Task
 
+- Install Mariadb server on database server
+- Create database
+- Create user with password
+- Grant user all privileges
+
 
 
 ## 🛠️Solution
@@ -11,34 +16,22 @@
 
 ```sudo su -```
 
-```yum install php php-opcache php-cli php-gd php-curl php-mysqlnd```
-
-```yum install httpd -y```
-
-```yum install mariadb-server mariadb -y```
+```yum install mariadb-server -y```
 
 ```systemctl enable mariadb```
 
-```systemctl restart mariadb```
-
-```vi /etc/httpd/conf/httpd.conf``` change listen port then ```systemctl restart httpd```
-
 ```sudo -u root mysql;```
 
-```craete database xxx;```
+```CREATE DATABASE name;```
 
-```show databases;```
+```SHOW DATABASES;```
 
-```create user database-user with password 'xxx';```
+```CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'strong_password';```
 
-```show databases;```
+```SELECT User, Host FROM mysql.user;```
 
-```GRANT ALL PRIVILEGES ON database.* TO 'username'@'%' IDENTIFIED BY 'password';```
+```GRANT ALL PRIVILEGES ON database_name.* TO 'newuser'@'localhost';```
 
-```SELECT USER FROM,HOST FROM mysql.user;```
-
-```SHOW GRANTS;```
-
-```show databases;```
+```SHOW GRANTS FOR 'username'@'localhost';```
 
 ---
