@@ -37,3 +37,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 16**: [Install and Configure Nginx as an LBR] - *Completed: April 21, 2026*
 - [x] **Day 17**: [Install and Configure PostgreSQL] - *Completed: April 22, 2026*
 - [x] **Day 18**: [Install and Configure DB Server] - *Completed: April 25, 2026*
+- [x] **Day 19**: [Install and Configure Web Application] - *Completed: April 26, 2026*
