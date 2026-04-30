@@ -24,7 +24,7 @@ Clone this Git repository to the /usr/src/kodekloudrepos directory. Perform this
 
 ```ls -l```
 
-```git clone /opt/```
+```git clone /opt/demo.git```
 
 
 
