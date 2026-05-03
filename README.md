@@ -43,3 +43,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 22**: [Clone Git Repository on Storage Server] - *Completed: April 29, 2026*
 - [x] **Day 23**: [Fork a Git Repository] - *Completed: April 30, 2026*
 - [x] **Day 24**: [Git Create Branches] - *Completed: May 2, 2026*
+- [x] **Day 25**: [Git Merge Branches] - *Completed: May 3, 2026*
