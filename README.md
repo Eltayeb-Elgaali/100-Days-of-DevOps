@@ -44,3 +44,4 @@ A dedicated space to document my journey, scripts, and configurations as I progr
 - [x] **Day 23**: [Fork a Git Repository] - *Completed: April 30, 2026*
 - [x] **Day 24**: [Git Create Branches] - *Completed: May 2, 2026*
 - [x] **Day 25**: [Git Merge Branches] - *Completed: May 3, 2026*
+- [x] **Day 26**: [Git Manage Remotes]  - *Completed: May 4, 2026*
